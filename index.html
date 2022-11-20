@@ -286,7 +286,7 @@ We are constantly evolving and adapting our strategies to keep up with the ever-
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" id="submit-button" onclick="buttonColor()">Send Message</button></div>
             </form>
           </div>
 <div class=" d-flex align-items-stretch">
@@ -392,6 +392,10 @@ We are constantly evolving and adapting our strategies to keep up with the ever-
         })
     })
 </script>
+<!--   Submit button color change script -->
+  <script> function buttonColor() {
+      document.getElementById('submit-button').style.backgroundColor = "#fbbc05";
+    }</script>
 
 </body>
 
